@@ -167,11 +167,11 @@ public class PropertyFrame extends JFrame {
 		userPathText = new JTextField();
 		userPathText.setFont(font);
 		userPathText.setColumns(15);
-		userPathText.setText("/Users/lijiabei/mywork");
+		userPathText.setText("/Users/xama/mywork");
 		row8.add(userPathText);
 
 		jfc = new JFileChooser();
-		jfc.setCurrentDirectory(new File("/Users/lijiabei/"));
+		jfc.setCurrentDirectory(new File("/Users/xama/"));
 
 		fileChooseBtn = new JButton("...");
 		fileChooseBtn.addActionListener(new ActionListener() {
